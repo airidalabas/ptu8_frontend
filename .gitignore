@@ -128,4 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
+video.mp4
+airida2.html
+airstyle2.css
+
+
 

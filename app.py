@@ -17,6 +17,10 @@ def airida():
 @app.route('/gisora/')
 def gisora():
     return render_template('gisora.html')
+    
+@app.route('/video/')
+def video():
+    return render_template("video.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
