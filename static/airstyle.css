@@ -39,17 +39,19 @@ html{
 }
 
 ul{
-   float: left;
    display: flex;
+   flex-direction: row;
    justify-content: center;
-   align-items: center; 
+   text-align: center; 
+   gap: 10px;
+   padding-left: 160px;
 }
 
 ul li{
     list-style: none;
     margin-left: 62px;
     margin-top: 45px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 ul li a{
